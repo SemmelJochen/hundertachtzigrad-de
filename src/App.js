@@ -28,6 +28,7 @@ function App() {
     <div className="App"
     style={{
       backgroundImage: `url(${bg})`,
+      backgroundColor: "black",
       backgroundSize: "auto 100%",
       backgroundPosition: "center center",
       backgroundRepeat: "no-repeat",
