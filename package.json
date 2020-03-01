@@ -1,7 +1,7 @@
 {
   "name": "hundertachtzigrad",
   "version": "0.1.0",
-  "homepage": "hundertachtzigrad.de",
+  "homepage": "https://hundertachtzigrad.de/semmeljochen.github.io",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.5",
