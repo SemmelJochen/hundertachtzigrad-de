@@ -1,6 +1,8 @@
 # Using the node alpine image to build the React app
 image: node:alpine
 
+variables: 
+    PUBLIC_URL: "/hundertachtzigrad-de"
 # Cache node modules - speeds up future builds
 cache:
   paths:
