@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './ressources/img/hundertachtzigrad.png';
 import './App.css';
-import { responsiveFontSizes, createMuiTheme, ThemeProvider, Typography, Card, CardHeader, CardContent, CardMedia } from '@material-ui/core';
+import { responsiveFontSizes, createMuiTheme, ThemeProvider, Typography } from '@material-ui/core';
 import bg from './ressources/img/foto.jpg';
 
 
