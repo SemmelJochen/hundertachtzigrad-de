@@ -4,13 +4,17 @@
   "homepage": "https://hundertachtzigrad.de",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.9.5",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-hover-video-player": "^6.6.3",
+    "react-scripts": "3.4.0",
+    "react-scroll": "^1.8.1",
+    "react-scroll-parallax": "^2.3.4"
   },
   "scripts": {
     "cleanup": "rm -rf node_modules/gh-pages/.cache",
