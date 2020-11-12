@@ -19,7 +19,7 @@
   "scripts": {
     "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "predeploy": "npm run build",
-    "deploy": "npm run cleanup && gh-pages -d build",
+    "deploy": "npm run cleanup && demoDeployed -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
