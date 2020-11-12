@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af68ba73.chunk.css",
+    "main.js": "/static/js/main.3061b433.chunk.js",
+    "main.js.map": "/static/js/main.3061b433.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d70cad7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d70cad7.js.map",
+    "static/js/2.997a9774.chunk.js": "/static/js/2.997a9774.chunk.js",
+    "static/js/2.997a9774.chunk.js.map": "/static/js/2.997a9774.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0f529c2ab4f4df5e9ef692c48d1ac4f9.js": "/precache-manifest.0f529c2ab4f4df5e9ef692c48d1ac4f9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.af68ba73.chunk.css.map": "/static/css/main.af68ba73.chunk.css.map",
+    "static/js/2.997a9774.chunk.js.LICENSE.txt": "/static/js/2.997a9774.chunk.js.LICENSE.txt",
+    "static/media/01.JPG": "/static/media/01.617e5a9f.JPG",
+    "static/media/02.JPG": "/static/media/02.0f06669a.JPG",
+    "static/media/03.JPG": "/static/media/03.c724d858.JPG",
+    "static/media/04.JPG": "/static/media/04.40e1755f.JPG",
+    "static/media/index.css": "/static/media/Renogare-Regular.5852fed9.otf",
+    "static/media/foto.jpg": "/static/media/foto.f51a8846.jpg",
+    "static/media/hundertachtzigrad.png": "/static/media/hundertachtzigrad.88899a64.png",
+    "static/media/kevin.JPG": "/static/media/kevin.11ea781f.JPG",
+    "static/media/kevin.mp4": "/static/media/kevin.2eede08e.mp4",
+    "static/media/marvin.JPG": "/static/media/marvin.10a62822.JPG",
+    "static/media/marvin.mp4": "/static/media/marvin.bbffe8d5.mp4",
+    "static/media/noah.mp4": "/static/media/noah.5002fa5a.mp4",
+    "static/media/noah.JPG": "/static/media/noah.c73ab876.JPG",
+    "static/media/patrick.mp4": "/static/media/patrick.2fef6dde.mp4",
+    "static/media/patrick.JPG": "/static/media/patrick.9fa9bd52.JPG",
+    "static/media/samuel.mp4": "/static/media/samuel.15a9da3f.mp4",
+    "static/media/samuel.JPG": "/static/media/samuel.1669d00f.JPG",
+    "static/media/titelbild.mp4": "/static/media/titelbild.923cb8d1.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d70cad7.js",
+    "static/js/2.997a9774.chunk.js",
+    "static/css/main.af68ba73.chunk.css",
+    "static/js/main.3061b433.chunk.js"
+  ]
+}
