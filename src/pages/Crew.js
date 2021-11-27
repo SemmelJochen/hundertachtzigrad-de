@@ -39,11 +39,40 @@ export const Crew = () => {
                     width: "75%",
                 }}
             >
-                <CrewFrame className={classes.item} img={kevin} overlay={kevinImg} text="Kevin" textTranslate={"20px, 20px"} lineOffset={3}/>
-                <CrewFrame className={classes.item} img={marvin} overlay={marvinImg} text="Marvin" textTranslate={"-30px, 0px"}/>
-                <CrewFrame className={classes.item} img={patrick} overlay={patrickImg} text="Patrick" textTranslate={"-20px, 20px"} />
-                <CrewFrame className={classes.item} img={noah} overlay={noahImg} text="Noah" textTranslate={"20px, 10px"} />
-                <CrewFrame className={classes.item} img={samuel} overlay={samuelImg} text="Samuel" textTranslate={"-20px, -10px"} />
+                <CrewFrame className={classes.item}
+                    img={kevin} overlay={kevinImg}
+                    text="Kevin"
+                //textTranslate={"20px, 20px"}
+                //lineOffset={3}
+                />
+                <CrewFrame
+                    className={classes.item}
+                    img={marvin}
+                    overlay={marvinImg}
+                    text="Marvin"
+                //textTranslate={"-30px, 0px"} 
+                />
+                <CrewFrame
+                    className={classes.item}
+                    img={patrick}
+                    overlay={patrickImg}
+                    text="Patrick"
+                    //textTranslate={"-20px, 20px"}
+                />
+                <CrewFrame
+                    className={classes.item}
+                    img={noah}
+                    overlay={noahImg}
+                    text="Noah"
+                    //textTranslate={"20px, 10px"}
+                />
+                <CrewFrame
+                    className={classes.item}
+                    img={samuel}
+                    overlay={samuelImg}
+                    text="Samuel"
+                    //textTranslate={"-20px, -10px"}
+                />
 
             </div>
         </ParallaxContainer>

@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
         letterSpacing: 10,
         transition: "transform 0.5s",
         '&:hover': {
-            transition: "transform 0.5s",
+            transition: "transform 0.3s ease-in-out",
             transform: "translate(0px, -12.5px)"
         },
 

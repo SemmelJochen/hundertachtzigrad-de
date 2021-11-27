@@ -14,12 +14,13 @@
     "react-hover-video-player": "^6.6.3",
     "react-scripts": "3.4.0",
     "react-scroll": "^1.8.1",
-    "react-scroll-parallax": "^2.3.4"
+    "react-scroll-parallax": "^2.3.4",
+    "react-spring": "^9.2.4"
   },
   "scripts": {
     "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "predeploy": "npm run build",
-    "deploy": "npm run cleanup && demoDeployed -d build",
+    "deploy": "npm run cleanup && gh-pages -d build --branch=demoDeployed",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

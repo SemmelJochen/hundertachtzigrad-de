@@ -17,6 +17,7 @@ const useStyles = makeStyles(theme => ({
     },
     projects: {
         marginTop: "2rem",
+        marginBottom: "2rem",
         width: "75%",
         flexDirection: "row",
         display: "flex",
@@ -34,8 +35,8 @@ export const Projects = () => {
             header={<SectionHeadline title="Projects" />}
         >
             <div style={{ height: "100vh" }}></div>
-            
-             <div className={classes.projects}>
+
+            <div className={classes.projects}>
                 <InfoImage
                     textComponent={
                         <>
@@ -48,7 +49,6 @@ export const Projects = () => {
                         </>
                     }
                     img={typen}
-                    imgStyle={{ maxWidth: "400px", minWidth: "85%" }}
                     divStyle={{ margin: "15px" }}
                 />
 
@@ -64,18 +64,16 @@ export const Projects = () => {
                         </>
                     }
                     img={auto}
-                    imgStyle={{ maxWidth: "400px", minWidth: "85%" }}
                     divStyle={{ margin: "15px" }}
                 />
 
                 <InfoImage
                     textComponent={
-                        <StyledTypo variant="h6">
+                        <StyledTypo variant="h5">
                             Mittach?!
                         </StyledTypo>
                     }
                     img={dude}
-                    imgStyle={{ maxWidth: "300px", minWidth: "75%" }}
                     divStyle={{ margin: "15px" }}
                 />
                 <InfoImage
@@ -85,11 +83,10 @@ export const Projects = () => {
                         </StyledTypo>
                     }
                     img={klappe}
-                    imgStyle={{ maxWidth: "300px", minWidth: "75%"}}
                     divStyle={{ margin: "15px" }}
                 />
             </div>
-            
+
 
         </ParallaxContainer>
     )

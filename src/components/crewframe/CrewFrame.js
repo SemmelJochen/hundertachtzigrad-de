@@ -9,16 +9,21 @@ const useStyles = makeStyles(theme => ({
         color: theme.palette.secondary.dark,
         transform: `translate(${textTranslate})`,
         textTransform: "uppercase",
-        textShadow: `-2px -2px 0px ${theme.palette.secondary.light}`,
+        //textShadow: `-2px -2px 0px ${theme.palette.secondary.light}`,
         //letterSpacing: 2
         //fontWeight: 600
     }),
     line: {
-        transform: "translate(-50px, 0px)",
-        backgroundColor: theme.palette.primary.light,
-        width: "300px",
+        //transform: "translate(-50px, 0px)",
+        backgroundColor: theme.palette.secondary.light,
+        //width: "300px",
+        width: "fit-content",
         height: "30px",
-        marginRight: "50px",
+        //marginRight: "50px",
+        paddingTop: "5px",
+        paddingBottom: "5px",
+        paddingLeft: "10px",
+        paddingRight: "10px"
     },
     root: {
         width: "361px",
@@ -28,6 +33,11 @@ const useStyles = makeStyles(theme => ({
         gridTemplateRows: "repeat(5, 1fr)",
         gridColumnGap: "0px",
         gridRowGap: "0px",
+        '@media (max-width: 600)':{
+            width: "250px",
+            height: "auto"
+        },
+        justifyItems: "center"
     }
 }));
 
@@ -50,14 +60,12 @@ export const CrewFrame = ({ className, textTranslate, text, img, lineOffset, ove
                 </div>
                 <div style={{
                     gridArea: `${lineOffset} / 1 / ${lineOffset + 1} / 2`,
-                    //gridArea: `3 / 1 / 4 / 2`,
                     zIndex: "100",
-                    textAlign: "right",
-                    //maxHeight: "40px",
+                    textAlign: "center",
                 }}>
-                    <div className={classes.line}>
+                    {text && <div className={classes.line}>
                         <Typography className={classes.text} variant="h4" >{text}</Typography>
-                    </div>
+                    </div>}
 
                 </div>
             </div>

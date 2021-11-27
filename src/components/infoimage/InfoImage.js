@@ -40,19 +40,26 @@ const useStyles = makeStyles(theme => ({
                 /* hover on*/
                 transition: "opacity 0.2s ease-out, visibility 0.2s",
             }
-        }
+        },
     },
     img: {
-        objectFit: "cover"
+        objectFit: "cover",
+        maxWidth: "400px", 
+        minWidth: "85%",
+        '@media( max-width: 600px)': {
+            maxWidth: "300px",
+            
+        }
     }
+
 }));
 
 export const InfoImage = (props) => {
     const classes = useStyles();
     return (
         <div className={classes.imgWrap} style={props.divStyle}>
-            <img className={classes.img} alt="img" src={props.img} style={props.imgStyle} />
-            <div className={classes.imgTextWrap} style={props.imgStyle}>
+            <img className={classes.img} alt="img" src={props.img}  />
+            <div className={classes.imgTextWrap} >
                 {props.textComponent}
             </div>
 
