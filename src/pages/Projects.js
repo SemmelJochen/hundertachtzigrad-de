@@ -2,10 +2,10 @@ import { makeStyles, Typography, withStyles } from '@material-ui/core'
 import React from 'react'
 import { ParallaxContainer } from '../components/parallax/ParallaxContainer';
 import { SectionHeadline } from '../components/sectionheadline/SectionHeadline';
-import auto from '../ressources/img/02.JPG'
-import typen from '../ressources/img/01.JPG'
-import dude from '../ressources/img/04.JPG'
-import klappe from '../ressources/img/03.JPG'
+import auto from '../assets/img/02.JPG'
+import typen from '../assets/img/01.JPG'
+import dude from '../assets/img/04.JPG'
+import klappe from '../assets/img/03.JPG'
 import { InfoImage } from '../components/infoimage/InfoImage';
 
 

@@ -8,7 +8,7 @@ body {
 }
 @font-face {
   font-family: "Renogare Regular"; 
-  src: url("./ressources/font/renogare/Renogare-Regular.otf"); 
+  src: url("./assets/font/renogare/Renogare-Regular.otf"); 
 }
 
 code {

@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundImage from '../../ressources/180Grad_Website_Content/Bilder/DSCF3995.JPG'
+import backgroundImage from '../../assets/180Grad_Website_Content/Bilder/DSCF3995.JPG'
 
 export const ImageContainer = (props) => {
     return (

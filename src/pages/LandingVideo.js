@@ -1,7 +1,7 @@
 import { IconButton, makeStyles } from '@material-ui/core'
 import React from 'react'
-import landingVideo from '../ressources/video/titelbild.mp4'
-import logo from '../ressources/img/hundertachtzigrad.png'
+import landingVideo from '../assets/video/titelbild.mp4'
+import logo from '../assets/img/hundertachtzigrad.png'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles(theme => ({

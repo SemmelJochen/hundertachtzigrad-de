@@ -3,10 +3,10 @@ import React from 'react'
 import { CrewFrame } from '../components/crewframe/CrewFrame'
 import { ParallaxContainer } from '../components/parallax/ParallaxContainer'
 import { SectionHeadline } from '../components/sectionheadline/SectionHeadline'
-import typen from '../ressources/img/foto.jpg'
+import typen from '../assets/img/foto.jpeg'
 
-import crew from '../ressources/img/3d/crew.mp4'
-import crewImg from '../ressources/img/3d/crew.jpg'
+import crew from '../assets/img/3d/crew.mp4'
+import crewImg from '../assets/img/3d/crew.jpg'
 
 export const AboutUs = () => {
     return (

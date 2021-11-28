@@ -1,7 +1,7 @@
 import React from 'react'
 import { ParallaxContainer } from '../components/parallax/ParallaxContainer'
 import { SectionHeadline } from '../components/sectionheadline/SectionHeadline'
-import typen from '../ressources/img/04.JPG'
+import typen from '../assets/img/04.JPG'
 
 export const Contact = () => {
     return (
